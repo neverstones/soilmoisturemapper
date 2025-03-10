@@ -6,6 +6,9 @@ import { setupVite, serveStatic, log } from "./vite";
 function debugEarthEngineEnvVars() {
   const clientEmail = process.env.GOOGLE_EARTH_ENGINE_CLIENT_EMAIL;
   const privateKey = process.env.GOOGLE_EARTH_ENGINE_PRIVATE_KEY;
+
+  console.log(clientEmail, "email");
+  console.log(privateKey, "privateKey");
   
   console.log('Debug Earth Engine environment variables:');
   console.log(`- Client Email exists: ${!!clientEmail}`);

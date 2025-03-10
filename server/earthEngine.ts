@@ -1,4 +1,9 @@
 import ee from '@google/earthengine';
+import dotenv from 'dotenv';
+dotenv.config();
+
+console.log("Client Email:", process.env.GOOGLE_EE_CLIENT_EMAIL);
+console.log("Private Key Exists:", process.env.GOOGLE_EE_PRIVATE_KEY ? "Yes" : "No");
 
 type TimeStep = 'daily' | 'weekly' | 'monthly';
 
