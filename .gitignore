@@ -4,3 +4,5 @@ dist
 server/public
 vite.config.ts.*
 *.tar.gz
+server/.env
+ee-skygardproject-9b8df9265073.json

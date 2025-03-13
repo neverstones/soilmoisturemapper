@@ -1,2 +1,2 @@
 # soilmoisturemapper
-A Webapp to monito water in the soil
+A Webapp to monitor water in the soil
